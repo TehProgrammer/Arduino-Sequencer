@@ -1,0 +1,7 @@
+Sequence	KEYWORD1
+setFuse	KEYWORD2
+getStep	KEYWORD2
+start	KEYWORD2
+pause	KEYWORD2
+unpause	KEYWORD2
+gotoStep	KEYWORD2
