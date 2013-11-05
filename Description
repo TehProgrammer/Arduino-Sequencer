@@ -1,0 +1,4 @@
+Sequencer library for Arduino
+(Made by: Austin W. Rowe from REC)
+
+	Sequencer is a simple library made to create timed sequences with more than 2 steps*.  You can simply make LED animations, or have a stepper or servo motor go one direction and speed for X amount of milliseconds and then go another direction and speed for X amount of milliseconds and so on.
