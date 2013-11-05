@@ -28,16 +28,16 @@ Then create an instance of the Sequencer class by making a global variable, “T
 
 There are more commands than just the ones talked about in the instructions.  Here is a full list of keywords.
 
-Sequence.start(int).
+Sequencer.start(int).
 
-int Sequence.getStep().
+int Sequencer.getStep().
 
-Sequence.setFuse().
+Sequencer.setFuse().
 
-Sequence.gotoStep(int).
+Sequencer.gotoStep(int).
 
-Sequence.pause().
+Sequencer.pause().
 
-Sequence.unpause().
+Sequencer.unpause().
 
 
