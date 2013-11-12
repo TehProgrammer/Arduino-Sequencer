@@ -2,13 +2,13 @@
 #include "Sequence.h"
 
 Sequence::Sequence() {}
-void Sequence::setFuse(int Fuse) {
-_Fuse = Fuse;
+void Sequence::setFuse(int Time) {
+_Time = Time;
 }
 void Sequence::start(int Steps) {
 unsigned long TimeCurrent = millis();
 if (paused == false) {
-if(TimeCurrent - TimeLast >= _Fuse) {
+if(TimeCurrent - TimeLast >= _Time) {
 TimeLast = TimeCurrent;
 Step++;
 if (Step > Steps) {
