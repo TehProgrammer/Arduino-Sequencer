@@ -11,7 +11,7 @@
 class Sequence {
 public:
 Sequence();
-void setFuse(int Fuse);
+void setTime(int Time);
 void start(int Steps);
 void pause();
 void unpause();
@@ -23,7 +23,7 @@ private:
 long TimeLast;
 long TimePaused;
 unsigned long TimeCurrent;
-int _Fuse;
+int _Time;
 bool paused;
 };
 
