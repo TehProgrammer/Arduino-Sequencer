@@ -14,7 +14,7 @@ Then create an instance of the Sequencer class by making a global variable, “T
 1. First create a switch case statement with the switch( ) being any variable you want.
  But we are going to use “Step” for now.  The cases represent the step, starting at 1
  and ending at the last step.  Let's say there are 4 steps in the sequence.  So you will have cases 1 through 4.
-2. Second you need to define the time you want each step to take by using Timer1.setFuse(time) 
+2. Second you need to define the time you want each step to take by using Timer1.setTime(time) 
  in the top of each step (or case).
 3. Okay, now we have a switch case statement and we set times for each step.  
  Next we need to set that variable we chose earlier equal to the current step by simply setting it equal
@@ -32,7 +32,7 @@ Sequencer.start(int).
 
 int Sequencer.getStep().
 
-Sequencer.setFuse().
+Sequencer.setTime(int).
 
 Sequencer.gotoStep(int).
 
