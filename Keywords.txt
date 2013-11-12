@@ -1,5 +1,5 @@
 Sequence	KEYWORD1
-setFuse	KEYWORD2
+setTime	KEYWORD2
 getStep	KEYWORD2
 start	KEYWORD2
 pause	KEYWORD2
