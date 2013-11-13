@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "Sequence.h"
+#include "Sequencer.h"
 
 Sequence::Sequence() {}
 void Sequence::setFuse(int Time) {
