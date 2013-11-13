@@ -1,4 +1,5 @@
-Sequence	KEYWORD1
+Sequencer KEYWORD1
+Sequence	KEYWORD2
 setTime	KEYWORD2
 getStep	KEYWORD2
 start	KEYWORD2
