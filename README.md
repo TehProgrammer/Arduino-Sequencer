@@ -11,7 +11,7 @@ But a switch case statement is recommended.  The steps to make your sequence is 
 Before you do anything, you need to declare you are using the library by importing it. 
 Then create an instance of the Sequencer class by making a global variable, “Timer1” for example.
 
-1. First create a switch case statement with the switch( ) being any variable you want.
+1. First create a switch case statement with the variable in switch( ) being any variable you want.
  But we are going to use “Step” for now.  The cases represent the step, starting at 1
  and ending at the last step (create a case 0: if the sequence is not set to loop forever)
  Let's say there are 4 steps in the sequence.  So you will have cases 1 through 4. But if you wanted to only run the
