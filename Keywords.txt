@@ -1,4 +1,4 @@
-Sequencer KEYWORD1
+Sequencer	KEYWORD1
 Sequence	KEYWORD2
 setTime	KEYWORD2
 getStep	KEYWORD2
@@ -6,3 +6,6 @@ start	KEYWORD2
 pause	KEYWORD2
 unpause	KEYWORD2
 gotoStep	KEYWORD2
+getComplete	KEYWORD2
+getIteration	KEYWORD2
+reset	KEYWORD2
