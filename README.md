@@ -5,6 +5,10 @@ Library for Arduino to create timed sequences of events.
 (Created by: Austin W. Rowe from REC)
 
 How to use:
+
+--- THIS VERSION IS OUTDATED, THIS README.md IS FOR VERSION 1.3 AND MAY NOT WORK FOR THIS 
+VERSION!---
+
 The sequence itself can be made of either a switch case or a simple if statement. 
 But a switch case statement is recommended.  The steps to make your sequence is as follows:
 
