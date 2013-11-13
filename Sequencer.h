@@ -2,10 +2,11 @@
    Sequence.h - library for creating timed sequences of code.
    Created by Austin W. Rowe, October 30, 2013.
    Released into the public domain.
+   Version 1.2
  */
    
-   #ifndef Sequence_h
-   #define Sequence_h
+   #ifndef Sequencer_h
+   #define Sequencer_h
    #include "Arduino.h"
    
 class Sequence {
