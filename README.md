@@ -1,6 +1,8 @@
 Sequencer-lib
 =============
 
+(Beta 2.0, WIP) NOT UPDATED!
+
 Library for Arduino to create timed sequences of events. 
 (Created by: Austin W. Rowe from REC)
 
