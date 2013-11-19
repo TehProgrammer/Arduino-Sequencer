@@ -52,8 +52,3 @@ return Iteration;
 int Sequence::getStep() {
 return Step;
 }
-
-}
-int Sequence::getStep() {
-return Step;
-}
