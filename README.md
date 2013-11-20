@@ -6,7 +6,7 @@ Library for Arduino to create timed sequences of events and more!
 (Created by: Austin W. Rowe from REC) ----
 (Package v2.0) (Sequencer v1.3.1) (Timeout v0.4-B)
 *******************************************************************************
-Desription:
+Description:
 --------
  This library allows the user to simply create a timed sequences of code.  Uses include:  Creating led animations, Sequencing servos to move certain distances and directions, can be used in a drawing robot to run motors.  (Multipal sequences can be created by creating a new instance of the sequencer class with a different name). 
 
