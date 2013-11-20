@@ -1,0 +1,15 @@
+Version 2.0 changes:
+
+- Added new sub-library called "Timeout".
+  - "Timeout" is a library to help create time-sensitive code.
+
+- Added keywords for "Timeout":
+  - void Timeout.begin();  Initializes the timer (must be put in the main loop).
+  - void Timeout.setTime(int);  Sets the time to wait for condition to become true.
+  - void Timeout.startCounting();  Starts the counter (Will only work the first time, then you must call Timeout.reset(); to re-enable it).
+  - bool Timeout.hasExpired();  Returns true if the time expired or condition was met.
+  - bool Timeout.passed();  Returns true if the condition became true within the time specified.
+  - void Timeout.condition(bool);  The condition to check when time has run out.
+  - void Timeout.reset();  To prevent accidental recalls of Timeout.startCounting();
+
+- Fixed some formatting problems.
