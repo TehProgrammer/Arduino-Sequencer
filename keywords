@@ -1,0 +1,26 @@
+========Sequencer=======
+
+Sequencer	KEYWORD1
+Sequence	KEYWORD1
+getStep	KEYWORD2
+pause	KEYWORD2
+unpause	KEYWORD2
+gotoStep	KEYWORD2
+getComplete	KEYWORD2
+getIteration	KEYWORD2
+reset	KEYWORD2
+stop	KEYWORD2
+
+
+=========TimeOut=========
+
+Timeout	KEYWORD1
+startCounting	KEYWORD2
+hasExpired	KEYWORD2
+passed	KEYWORD2
+condition	KEYWORD2
+
+=========Common=========
+
+setTime	KEYWORD2
+start	KEYWORD2
